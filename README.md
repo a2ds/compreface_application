@@ -9,6 +9,7 @@
     
   * [Overview](#overview)
   * [Getting Started with CompreFace](#getting-started-with-compreface)
+  * [CompreFace SDKs](#compreface-sdks)
   * [Screenshots](#add-one-subject)
   * [News and updates](#news-and-updates)
   * [Features](#features)
@@ -28,7 +29,7 @@ The following is a guide to use the application part of the two repos above:
 ### To get started (Linux, MacOS):
 
 1. Install Docker and Docker Compose
-2. Download the archive from our latest release: https://github.com/exadel-inc/CompreFace/releases
+2. Download the archive
 3. Unzip the archive
 4. Open the terminal in this folder and run this command: `docker-compose up -d`
 5. Open the service in your browser: http://localhost:8000/login
@@ -36,14 +37,20 @@ The following is a guide to use the application part of the two repos above:
 ### To get started (Windows):
 
 1. Install Docker Desktop
-2. Download the archive from our latest release: https://github.com/exadel-inc/CompreFace/releases
+2. Download the archive
 3. Unzip the archive
 4. Run Docker
 5. Open Command prompt (write `cmd` in windows search bar)
 6. Open folder where you extracted zip archive (Write `cd path_of_the_folder`, press enter).
 7. Run command: `docker-compose up -d`
 8. Open http://localhost:8000/login
-9. 
-# Add one subject
 
+# CompreFace SDKs
+
+| SDK        | Repository                                              |
+|------------|---------------------------------------------------------|
+| JavaScript | https://github.com/exadel-inc/compreface-javascript-sdk |
+| Python     | https://github.com/exadel-inc/compreface-python-sdk     |
+
+# Add one subject
 
