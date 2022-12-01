@@ -11,8 +11,10 @@
   * [Getting Started with CompreFace](#getting-started-with-compreface)
   * [CompreFace SDKs](#compreface-sdks)
   * [Screenshots](#add-one-subject)
-  * [News and updates](#news-and-updates)
-  * [Features](#features)
+  * [Application](#application)
+    * [Add one subject](#add-one-subject)
+    * [Add folders](#add-folders)
+    * [Real time recognition](#real-time-recognition)
 
 # Overview:
 This repository is created based on [Compreface reposity](https://github.com/exadel-inc/CompreFace) and it's [python sdk](https://github.com/exadel-inc/compreface-python-sdk). For ease of use, both of the above repos are located in this repo along with their application section (example).
@@ -46,12 +48,36 @@ The following is a guide to use the application part of the two repos above:
 8. Open http://localhost:8000/login
 
 # CompreFace SDKs
-You can go to [compreface_application/compreface-python-sdk](https://github.com/a2ds/compreface_application/tree/main/compreface-python-sdk-main/compreface-python-sdk-main) or use the links below:
+You can go to [compreface-python-sdk](/compreface-python-sdk-main) or use the links below:
 
 | SDK        | Repository                                              |
 |------------|---------------------------------------------------------|
 | JavaScript | https://github.com/exadel-inc/compreface-javascript-sdk |
 | Python     | https://github.com/exadel-inc/compreface-python-sdk     |
 
-# Add one subject
+# Screenshots
+<p align="center">
+<img src="https://user-images.githubusercontent.com/3736126/130649323-b52d787c-8ba4-4064-97a6-6ffa70ef5f46.png" 
+alt="compreface-recognition-page" width=390px style="padding: 0px 10px 0px 0px;">
+<img src="https://user-images.githubusercontent.com/3736126/130649405-72d5324f-8ba6-4fa6-9e37-cac6f0b80c92.png" 
+alt="compreface-main-page" width="390px" style="padding: 0px 0px 0px 10px;">
+</p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/3736126/130649939-15f40c5b-5cda-4627-a6d1-c243a8095411.png" 
+alt="compreface-recognition-page" width=390px style="padding: 0px 10px 0px 0px;">
+<img src="https://user-images.githubusercontent.com/3736126/130650028-c82dc1c7-0c8d-43a5-9e50-5c52125cbf1a.png" 
+alt="compreface-main-page" width="390px" style="padding: 0px 0px 0px 10px;">
+</p>
+
+# Application
+## Add one subject
+Use the [add_1_subject.py](/example/add_1_subject.py) file in example folder. Change the API_key then run the file.
+Note that the image is in the same folder with the file.
+## Add folders
+Use the [add_folders.py](/example/add_folders.py) file in example folder. Change the API_key then run the file.
+Note that the folder is in the same folder with the file. You can check the [example folder](/example/staff) to see how the folders are structured.
+## Real time recognition
+Use the [camera.py](/example/camera.py) file in example folder. Change the API_key then run the file.
+Note that it will save the recognition frame and data to the folder named as that day. [Example](/example/30_11_2022).
+
 
