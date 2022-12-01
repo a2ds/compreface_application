@@ -46,6 +46,7 @@ The following is a guide to use the application part of the two repos above:
 8. Open http://localhost:8000/login
 
 # CompreFace SDKs
+You can go to [compreface_application/compreface-python-sdk](https://github.com/a2ds/compreface_application/tree/main/compreface-python-sdk-main/compreface-python-sdk-main) or use the links below:
 
 | SDK        | Repository                                              |
 |------------|---------------------------------------------------------|
