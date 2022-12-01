@@ -1,5 +1,9 @@
 <h1 align="center">Compreface Application</h1>
-
+<p align="center">
+    <a target="_blank" href="https://exadel.com/solutions/compreface/">
+  <img src="https://user-images.githubusercontent.com/3736126/147130206-17234c47-8d40-490f-8d93-57014fa6d87e.png" alt="angular-logo" height="250px"/>
+ </a>
+</p>
 # Table Of Contents
 
   * [Overview](#overview)
